@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Narrow';
+    src: url('../assets/Fonts/GothamProNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Narrow';
+    src: url('../assets/Fonts/GothamProNarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../assets/Fonts/GothamPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+.H1_60_Bold{
+    font-size: 60px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.H2_48_Bold{
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 700;
+}
+.H3_36_Bold{
+    font-size: 36px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.H4_24_Bold{
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+}
+.Text_1_30_Regular{
+    font-size: 30px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.Text_2_24_Regular{
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 400;
+}
+.Other_30_Bold{
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 700;
+}
+.Other_18_Mediun{
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 500;
+}
+.Other_14_regular{
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.Text_Main_18_Regular{
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+}

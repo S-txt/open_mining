@@ -1,9 +1,9 @@
 <template>
 <header id="header" class="header">
   <img src="../src/assets/Logo.svg" alt="" class="logo">
-  <ul class="menu">
+  <ul class="menu Text_2_24_Regular">
     <li>
-      <a href="#">О проекте</a>
+      <a href="#" class="">О проекте</a>
     </li>
     <li>
       <a href="#">Тарифы</a>
@@ -21,12 +21,12 @@
 </header>
 <div class="main">
   <div class="main_container">
-    <h1>
+    <span class="H1_60_Bold">
       Снижение рисков связанных с майнингом по максимуму
-    </h1>
-    <h6>
+    </span>
+    <span class="Text_2_24_Regular">
       Честность майнинга заложена в архитектуре
-    </h6>
+    </span>
     <ul>
       <li>
         <a href="#" class="btn" id="btn_1">Начать зарабатывать</a>
@@ -37,10 +37,100 @@
     </ul>
   </div>
 </div>
-<div class="about">
-  <img id="laptop" src="../src/assets/img/Laptop.png">
+<div class="about_container">
+  <div class="about">
+    <span class="H2_48_Bold">open mining</span>
+    <span class="Text_1_30_Regular">— это прозрачный заработок на майнинге криптовалют, а самое главное — мы находимся в России.</span>
+  </div>
 </div>
-  
+<div class="tab">
+<div class="card">
+  <img src="../src/assets/Icons/ic_risk.png">
+  <span class="H4_24_Bold">Все риски берем на себя</span>
+  <span class="Text_Main_18_Regular">Покупка оборудование, его транспортировка, размещение, оплата электричества, ремонт и сопровождение — все эти риски мы берем на себя</span>
+</div>
+<div class="card">
+  <img src="../src/assets/Icons/ic_honest.png">
+  <span class="H4_24_Bold">Гарантия честности схемы работы</span>
+  <span class="Text_Main_18_Regular">Вы покупаете только мощность оборудования — хешрайт, так заключается контракт. Купленная мощность направляется на один из пулов, который вы выбираете. Сторонний пул гарантирует прозрачность, честность и простоту схемы</span>
+</div>
+<div class="card">
+  <img src="../src/assets/Icons/ic_clearpay.png">
+  <span class="H4_24_Bold">Никаких скрытых платежей</span>
+  <span class="Text_Main_18_Regular">Никаких ежедневных списаний за обслуживание и электроэнергию. Короткие контракты на 3 месяца, минимизируют риски, что майнинг станет невыгоден вследствие роста сложности, халвинга и падение курсов</span>
+</div>
+</div>
+<div class="edge_container">
+  <span class="H2_48_Bold">Преимущества облачного майнинга</span>
+  <div class="edge">
+    <ul>
+      <li class="card_big_alert alert H3_36_Bold">
+        Обычный майнинг
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Ожидаете поставки майнеров и теряете драгоценное время.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Тратите время на подготовку оборудования к работе.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Отсутствие достаточного охлаждения снижает эффективность оборудования. Велик риск перегревания и поломки.
+        Результат – дополнительные затраты и потеря времени.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Высокая стоимость электроэнергии.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Необходимость уделять много времени обслуживанию оборудование. Результат поломок – потеря времени
+        и упущенная прибыль.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Шум от оборудования и избыточное тепло.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Дополнительные расходы на обеспечение безопасности майнеров.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Возможны дополнительные траты на оплату таможенных пошлин при поставке оборудования.
+      </li>
+      <li class="card_small alert Text_Main_18_Regular">
+        Необходимость в специальных знаниях для настройки и поддержания работоспособности майнеров.
+      </li>
+
+      <li class="card_big_accept accept H3_36_Bold">
+        Облачный майнинг
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Оборудование всегда готово к работе. Просто выбирайте контракт и начинайте зарабатывать.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Просто и удобно. Не нужно ничего настраивать и иметь IT-навыки.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Оптимальные промышленные условия обеспечивают максимальную производительность майнеров.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Низкая стоимость электроэнергии, значит отличные цены
+        на всех контрактах.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Бесперебойная работа. 24/7/365 контроль за работой  майнеров. Высочайшие стандарты безопасности.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Тишина и спокойствие.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Гарантия безопасности майнеров.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Отсутствие непредвиденных расходов. Вы платите только один раз и только ту сумму, которая указана в контракте.
+      </li>
+      <li class="card_small accept Text_Main_18_Regular">
+        Квалифицированные специалисты.
+      </li>
+    </ul>
+  </div>
+</div>
 </template>
 
 <script>
@@ -52,104 +142,17 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro Narrow';
-  src: url('assets/Fonts/GothamProNarrow-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro Narrow';
-  src: url('assets/Fonts/GothamProNarrow-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url('assets/Fonts/GothamPro-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-}
+@import "assets/Fonts.css";
 body{
   margin: 0;
 }
 *{
   font-family: 'Gotham Pro', sans-serif;
   text-decoration: none;
+  color: black;
+  /*box-sizing: border-box;*/
 }
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-
-  margin: 0;
-}
-template{
+#app{
   width: 1920px;
 }
 header{
@@ -166,44 +169,22 @@ header{
 li{
   list-style: none;
 }
-header a{
-  color: black;
-}
 .menu{
   display: flex;
   justify-content: center;
 }
 .menu li a {
-  text-decoration: none;
-  font-size: 16px;
   margin-left: 1em;
-}
-.graph{
-  position: relative;
-  opacity: 30%;
-  object-fit: scale-down;
-  overflow:hidden;
-  width: 100%;
-  z-index: 0;
-}
-#graph_2{
-  margin-top: -13%;
-}
-h1{
-  font-size: 60px;
-  line-height: 130%;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-h6{
-  font-size: 24px;
-  line-height: 130%;
-  font-weight: 400;
 }
 .main_container {
   width: 840px;
   margin: 0 auto;
   padding: 0 10% 100px 10%;
+  display: flex;
+  flex-flow: column;
+  row-gap: 56px;
+  align-items: center;
+  text-align: center;
 }
 .main_container::after{
   position: absolute;
@@ -215,8 +196,9 @@ h6{
   opacity: 0.15;
   z-index: -1;
   background:
-      url("../src/assets/bg/graph_1.svg")  no-repeat,
-      url("../src/assets/bg/graph_2.svg") 0 140px no-repeat;
+      url("../src/assets/bg/graph_1.svg") no-repeat,
+      url("../src/assets/bg/graph_2.svg") 0 15% no-repeat;
+  background-size: contain;
 }
 .main_container ul{
   display: flex;
@@ -255,27 +237,141 @@ h6{
   border: 1px solid #D7D7D7;
   color: #D7D7D7;
 }
+
+.about_container{
+
+  height: 1300px;
+  background: url("../src/assets/img/Laptop.png") 5% 0 no-repeat,
+      url("../src/assets/bg/spot1.png") right no-repeat;
+}
 .about{
-  overflow-y: hidden;
-  background-image: url("../src/assets/bg/spot1.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
+  position: relative;
+  top: 20%;
+  left: 65%;
 
-.bg {
-  position: absolute;
-  z-index: 0;
-  overflow: hidden;
-}
-#spot1{
-  position: absolute;
-  left: 1070px;
-  overflow: hidden;
-  z-index: -1;
+  display: flex;
+  flex-flow: column;
+
+  max-width: 560px;
+  height: 213px;
+
+  row-gap: 37px;
+  text-align: left;
 
 }
-#laptop{
-  margin: 0 auto;
+.about .H2_48_Bold{
+  color: #1BAAD1;
+}
+
+.tab{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  column-gap: 80px;
+  justify-content: center;
+  margin: 110px 0 0;
+}
+.tab .card{
+  width: 416px;
+  height: 552px;
+  border: 1px solid #D7D7D7;
+  border-radius: 24px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  -webkit-transition: 1s ease; /* Safari and Chrome */
+  -moz-transition: 1s ease; /* Firefox 4 */
+  -o-transition: 1s ease; /* Opera */
+}
+.tab .card img{
+  width: 176px;
+  height: 176px;
+  margin: 32px 0 16px 0
+}
+.tab .card span{
+  margin: 10px 24px;
+}
+.tab .card:hover{
+  transform: translateY(-10px);
+}
+
+.edge_container{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background: url("assets/bg/spot2.png") 0 15% no-repeat;
+}
+.edge_container .H2_48_Bold{
+  margin: 72px 0;
+}
+
+.edge{
+  display: flex;
+  justify-content: center;
+
+}
+.card_small{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+}
+.edge ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(10, auto);
+  grid-auto-flow: column;
+  gap: 24px;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.edge .H3_36_Bold{
+  box-sizing: border-box;
+  position: relative;
+  width: 668px;
+  height: 208px;
+
+  border-radius: 12px;
+  border-top: 16px solid var(--clr);
+  text-align: center;
+  padding: 70px 0 0 145px ;
+  border-left: none;
+}
+.alert{
+  --clr:#EB5757
+}
+.accept{
+  --clr:#87B645
+}
+.edge .card_big_alert{
+  background:
+  url("../src/assets/bg/edge_alert.png") right no-repeat,
+  url("../src/assets/Icons/ic_allert.png") 10% no-repeat,
+  #E7E9E8;
+  background-size:20%;
+}
+.edge .card_big_accept{
+  background:
+      url("../src/assets/bg/edge_accept.png") right no-repeat,
+      url("../src/assets/Icons/ic_accept.png") 10% no-repeat,
+      #E7E9E8;
+  background-size:20%;
+}
+
+
+.edge .card_small{
+  width: 584px;
+  padding: 24px 16px 24px 32px;
+  border-left: 8px solid var(--clr);
+  border-radius: 8px;
+}
+
+.edge .card_small:nth-child(2n){
+  background: #E7E9E8;
 }
 
 </style>
