@@ -131,12 +131,67 @@
     </ul>
   </div>
 </div>
+  <div class="calc_container">
+    <span class="H2_48_Bold">Расчитайте свой доход</span>
+    <div class="calc">
+      <div class="calc_item">
+        <span class="Text_Main_18_Regular">Мощность,  Th/ s</span>
+        <input type="number"
+               min="10"
+               max="1000"
+               id="power_input"
+               v-model="power_value"
+        >
+        <input type="range"
+               min="10"
+               max="1000"
+               v-model="power_value"
+               id="power_range">
+        <div class="calc_footer Other_14_regular">
+          <span>10 Th/ s</span>
+          <span>1000 Th/ s</span>
+        </div>
+      </div>
+      <div class="calc_item">
+        <span class="Text_Main_18_Regular">Срок контракта, дни</span>
+        <input type="number"
+               min="90"
+               max="365"
+               id="term_input"
+               v-model="term_value">
+        <input type="range"
+               min="90"
+               max="365"
+               v-model="term_value"
+               id="term_range">
+        <div class="calc_footer Other_14_regular">
+          <span>90 дней</span>
+          <span>365 дней</span>
+        </div>
+      </div>
+      <div class="calc_item">
+        <span class="Text_Main_18_Regular">Мощность,  Th/ s</span>
+        <input type="number">
+        <input type="range">
+        <div class="calc_footer Other_14_regular">
+          <span>10 Th/s</span>
+          <span>1000 Th/s</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'App',
   components: {
+  },
+  data(){
+    return{
+      power_value:10,
+      term_value:90
+    }
   }
 }
 </script>
@@ -306,7 +361,6 @@ li{
 .edge_container .H2_48_Bold{
   margin: 72px 0;
 }
-
 .edge{
   display: flex;
   justify-content: center;
@@ -328,7 +382,6 @@ li{
   justify-content: center;
 
 }
-
 .edge .H3_36_Bold{
   box-sizing: border-box;
   position: relative;
@@ -361,17 +414,44 @@ li{
       #E7E9E8;
   background-size:20%;
 }
-
-
 .edge .card_small{
   width: 584px;
   padding: 24px 16px 24px 32px;
   border-left: 8px solid var(--clr);
   border-radius: 8px;
 }
-
 .edge .card_small:nth-child(2n){
   background: #E7E9E8;
 }
 
+.calc_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.calc{
+  display: flex;
+
+}
+.calc_item{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.calc_footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calc_footer span{
+  color: #A1A1A3;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
 </style>
